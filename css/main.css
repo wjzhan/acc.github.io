@@ -60,9 +60,9 @@
 /* slideshow ----------------------------------------------------------------------*/
 .slideshow {
 	float: right;
-	margin-top: 4rem;
-	width: 35rem;
-	height: 39.5rem;
+	margin-top: 10vh;
+	width: 43vw;
+	height: 112vh;
 	display: flex;
 	flex-direction: row;
 	background-color: rgba(0,0,0,0.9);
