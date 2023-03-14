@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+a {
+	color: #40205f;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+ul{
+	list-style: none;
+}
+
+.wrapper {
+	margin: 10px auto;
+	background-color: white;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-inline-flex{
+	display: inline-flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-col {
+	flex-direction: column;
+}

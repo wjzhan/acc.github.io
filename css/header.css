@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* topper bar */
+.topper{
+	background: -webkit-linear-gradient(top, #000, #40205f);
+	background: -moz-linear-gradient(top, #000, #40205f);
+}
+
+.marquee {
+	background-color: rgba(0, 0, 0, 0);
+	width: 40%;
+	overflow: hidden;
+	margin-left: 37%;
+}
+
+.marquee>.inner {
+	margin-top: 0.3rem;
+	position: relative;
+	width: 100%;
+	display: flex;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.marquee .inner>* {
+	white-space: nowrap;
+	padding: 0 4rem;
+}
+
+.go-english {
+	background-color: white;
+	margin-left: 3%;
+	width: 15%;
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.go-english h4{
+	color: black;
+	font-size: 1rem;
+}
+
+.go-english:hover h4{
+	color: #fff;
+	background-color: #40205f;
+}
+
+.acc-logo {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	padding-left: 2rem;
+}
+
+.acc-logo img {
+	width: 3rem;
+	margin-right: 0.25rem;
+}
+
+.acc-brand {
+	text-align: center;
+	white-space: nowrap;
+	padding-top: 0.5rem;
+}
+
+.acc-brand>h4 {
+	padding-bottom: 0.3rem;
+	font-size: 1.25rem;
+	color: black;
+	text-shadow: lightgrey 1px 1px;
+}
+
+.acc-brand>small {
+	border-top: 2px #40205f solid;
+	padding-top: 0.2rem;
+	font-size: 1rem;
+	color: black;
+	text-shadow: lightgrey 1px 1px;
+	
+}
+
+.topmenu {
+	position: relative;	
+}
+
+.topmenu>a{
+	padding: 0.4rem 1rem;
+}
+
+.topmenu>h4{
+	padding: 1rem;
+	border-top:3px solid black;
+}
+
+.thickbar{
+	border-top: 3px solid white;
+}
+
+.dropdown{
+	margin-top: 3.5rem;
+	position: absolute;
+	float: left;
+	width: 100%;
+	background: -webkit-linear-gradient(top, #000, #40205f);
+	background: -moz-linear-gradient(top, #000, #40205f);
+	opacity: 0.9;
+	padding: 1rem 0;
+	display: none;
+}
+
+#drop1{
+	margin-left: 4.4rem;
+}
+#drop2{
+	margin-left: 0.4rem;
+}
+#drop4{
+	margin-left: 0.4rem;
+}
+#drop5{
+	margin-left: 1.1rem;
+}
+#drop6{
+	margin-left: 1.2rem;
+}
+#drop7{
+	margin-left: 1.2rem;
+}
+
+.dropdown>ul{
+	padding: 0.5rem;
+	font-size: 0.95rem;
+}
+
+.dropdown>ul>li{
+	padding: 0.7rem 0;
+}
+
+.dropdown>ul a{
+	color: white;
+}
+
+/* hover effect */
+.topmenu:hover{
+	cursor: pointer;
+}
+.topmenu:hover .dropdown{
+	display: flex;
+	z-index: 10;
+}
+
+.topmenu>h4:hover{
+	background: black;
+	color: mediumpurple;
+}
+
+.dropdown a:hover{
+	color: mediumpurple;
+}
+
