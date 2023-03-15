@@ -14,7 +14,7 @@
 		<script src="js/main.js" charset="utf-8"></script>
 	</head>
 	<body>
-		<div class="wrapper" style="margin: 0">
+		<div id="wrapper" style="margin: 0">
 			<header>
 				<div class="topper d-flex">
 					<div class="marquee">
@@ -100,7 +100,7 @@
 				<video playsinline autoplay muted loop id="backVideo" preload="auto" poster="img/christmas.jpg">
 					<source src="upload/videos/acc-background-compressed.mp4" type="video/mp4">
 				</video>
-				<div class="video-content">		
+				<div class="video-content">
 					<div class="intro">
 						<p>
 							<span><b>奧斯汀華人教會</b>成立於1982年, </span>
@@ -139,14 +139,25 @@
 					</div>
 					<button id="videoBtn" onclick="controlVideo()">暂停</button>
 				</div>
-				
+
 			</div>
 
 			<div id="rollingnews">
 
 			</div>
 
-			<footer></footer>
+			<footer>
+				<h3 style="font-size: 1.3em">奥斯汀华人教会</h3>
+				<h3>Austin Chinese Church</h3>
+				<p>
+					11118 Dessau Road
+					<br>
+					Austin, TX 78754
+				</p>
+				<p class="copyright">
+					© Austin Chinese Church. 2023. All rights reserved.
+				</p>
+			</footer>
 		</div>
 	</body>
 </html>
