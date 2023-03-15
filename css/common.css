@@ -36,3 +36,11 @@ ul{
 .flex-col {
 	flex-direction: column;
 }
+
+.align-left {
+	text-align: left;
+}
+
+.margin-auto {
+	margin: auto;
+}
