@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-#wrapper>footer{
+footer{
 	background: -webkit-linear-gradient(top, #000, #40205f);
 	background: -moz-linear-gradient(top, #000, #40205f);
 	color: white;
@@ -10,13 +10,13 @@
 	justify-content: center;
 }
 
-#wrapper>footer p{
+footer p{
 	margin-top: 0.875em;
 	font-size: 1em;
 	line-height: 1.3;
 }
 
-#wrapper>footer>.copyright{
+footer>.copyright{
 	font-size: 0.875em;
 	margin-top: 1.1em;
 	color: darkgray;

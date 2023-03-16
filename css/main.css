@@ -124,3 +124,93 @@
 .controls ul li.active {
 	background: mediumpurple;
 }
+
+
+/* First Visit ----------------------------------------------------------------------*/
+.first-visit-title {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%
+}
+
+.visitor-ul {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+	text-align: center;
+	padding: 1% 8%;
+}
+
+.visitor-li {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	max-width: 100%;
+}
+
+.linewrapper {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.notebook-icon::before {
+	content: url("../img/icons8-notebook-60.png");
+	width: 60px;
+	height: 60px;
+	opacity: 0.9;
+}
+
+.church-icon::before {
+	content: url("../img/icons8-church-60.png");
+	width: 60px;
+	height: 60px;
+	opacity: 0.9;
+}
+
+.group-icon::before {
+	content: url("../img/icons8-group-64.png");
+	width: 60px;
+	height: 60px;
+	opacity: 0.9;
+}
+
+.visitor-icon {
+	/* justify-content: center; */
+	align-items: center;
+	font-weight: 600;
+}
+
+.visitor-icon::after {
+	position: absolute;
+	top: 2em;
+	width: calc(100% - 7.25em);
+	left: calc(50% + 3.5em);
+	border-top: 0.15em solid #5F178D;
+	content: "";
+}
+
+.visitor-content {
+	flex: 1;
+	padding: 5% 15%;
+}
+
+.visitor-content h3 {
+	opacity: 0.7;
+}
+
+.visitor-content p {
+	font-size: 0.9em;
+	padding: 2% 0;
+}
+
+.visitor-content a {
+	font-size: .75rem;
+	font-weight: 400;
+	padding: 0.5rem 0.75rem;
+	color: #fff;
+	background-color: #5F178D;
+	border-radius: 5px;
+}

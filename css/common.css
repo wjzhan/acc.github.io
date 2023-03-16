@@ -6,6 +6,10 @@
 	font-family: Arial;
 }
 
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 a {
 	color: #40205f;
 	text-decoration: none;
@@ -43,4 +47,8 @@ ul{
 
 .margin-auto {
 	margin: auto;
+}
+
+.flax-wrap{
+	flex-wrap: wrap;
 }
