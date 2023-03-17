@@ -130,9 +130,8 @@
 /* First Visit ----------------------------------------------------------------------*/
 .first-visit-title {
 	text-align: center;
-	margin-top: 5%;
-	margin-left: 10%;
-	margin-right: 10%
+	margin-left: 12%;
+	margin-right: 12%;
 }
 
 .visitor-ul {
@@ -194,7 +193,6 @@
 }
 
 .visitor-content {
-	flex: 1;
 	padding: 5% 15%;
 }
 
@@ -218,5 +216,110 @@
 
 .visitor-content a:hover {
 	background-color: black;
-	color:mediumpurple;
+	color: mediumpurple;
 }
+
+
+.sunday-worship-intro {
+	display: flex;
+	margin-left: 13%;
+	margin-right: 10%;
+}
+
+#lunch-reserve {
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 15%;
+	padding: 0.5rem 0.75rem;
+	background-color: rgba(64, 32, 95, .1);
+	border: 0.25em solid #40205f;
+	border-radius: 10px;
+}
+
+#lunch-reserve:hover {
+	background-color: #40205f;
+	color: white;
+}
+
+/* Sunday Schedule -----------------------------------------------------------*/
+.sunday-schedule {
+	display: block;
+	flex-direction: column;
+	flex: 1;
+	padding: 2em 3em;
+	margin: 0 0.5em;
+	overflow: hidden;
+	background-color: #f7faff;
+	border-radius: 10px;
+}
+
+.sunday-timeline {
+	width: 100%;
+	position: relative;
+	padding: 1.5rem 0 1rem;
+
+}
+
+.sunday-timeline::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 4em;
+	height: 100%;
+	width: 0.25em;
+	background: #e9ecef;
+	border-radius: 0.25rem;
+}
+
+.timeline-element {
+	position: relative;
+	margin: 1em 0 1em;
+}
+
+.timeline-element-time {
+	position: absolute;
+	left: -0.85em;
+	top: 0.1em;
+	/* color: #adb5bd; */
+	color: darkgray;
+	font-size: 0.875em;
+	white-space: nowrap;
+}
+
+.badge {
+	position: absolute;
+	left: 3.5em;
+	border-radius: 0.3125rem;
+	background-color: #71869d;
+}
+
+.badge-dot {
+	width: 18px;
+	height: 18px;
+	position: absolute;
+}
+
+.badge-dot::before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 0.25rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -5px 0 0 -5px;
+	background: #fff;
+}
+
+.timeline-element-content {
+	position: relative;
+	margin-left: 5.5em;
+	top:-0.1em;
+	opacity: 0.7;
+}
+
+.timeline-element-content p{
+	font-size: 0.875em;
+}
+
+

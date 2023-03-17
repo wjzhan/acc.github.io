@@ -52,3 +52,15 @@ ul{
 .flax-wrap{
 	flex-wrap: wrap;
 }
+
+.flax1{
+	flex: 1;
+}
+
+.flax2{
+	flex: 2
+}
+
+.tcenter{
+	text-align: center;
+}
