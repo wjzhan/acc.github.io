@@ -137,7 +137,6 @@
 .visitor-ul {
 	position: relative;
 	display: flex;
-	flex-wrap: wrap;
 	margin-bottom: 1em;
 	text-align: center;
 	padding: 1% 8%;
@@ -146,14 +145,11 @@
 .visitor-li {
 	display: flex;
 	flex: 1;
-	flex-direction: column;
-	max-width: 100%;
 }
 
 .linewrapper {
 	display: block;
 	position: relative;
-	width: 100%;
 }
 
 .notebook-icon::before {
@@ -177,12 +173,6 @@
 	opacity: 0.9;
 }
 
-.visitor-icon {
-	/* justify-content: center; */
-	align-items: center;
-	font-weight: 600;
-}
-
 .visitor-icon::after {
 	position: absolute;
 	top: 2em;
@@ -192,7 +182,10 @@
 	content: "";
 }
 
+
 .visitor-content {
+	display: flex;
+	flex-direction: column;
 	padding: 5% 15%;
 }
 
@@ -208,7 +201,8 @@
 .visitor-content a {
 	font-size: .75rem;
 	font-weight: 400;
-	padding: 0.5rem 0.75rem;
+	padding: 0.25rem;
+	margin: 0 15%;
 	color: #fff;
 	background-color: #5F178D;
 	border-radius: 5px;
