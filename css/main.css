@@ -148,7 +148,6 @@
 }
 
 .linewrapper {
-	display: block;
 	position: relative;
 }
 
@@ -157,6 +156,7 @@
 	width: 60px;
 	height: 60px;
 	opacity: 0.9;
+	box-sizing: border-box;
 }
 
 .church-icon::before {
@@ -164,6 +164,7 @@
 	width: 60px;
 	height: 60px;
 	opacity: 0.9;
+	box-sizing: border-box;
 }
 
 .group-icon::before {
@@ -171,6 +172,7 @@
 	width: 60px;
 	height: 60px;
 	opacity: 0.9;
+	box-sizing: border-box;
 }
 
 .visitor-icon::after {
@@ -180,6 +182,7 @@
 	left: calc(50% + 3.5em);
 	border-top: 0.15em solid #5F178D;
 	content: "";
+	box-sizing: border-box;
 }
 
 
@@ -263,6 +266,7 @@
 	width: 0.25em;
 	background: #e9ecef;
 	border-radius: 0.25rem;
+	box-sizing: border-box;
 }
 
 .timeline-element {
@@ -303,6 +307,7 @@
 	top: 50%;
 	margin: -5px 0 0 -5px;
 	background: #fff;
+	box-sizing: border-box;
 }
 
 .timeline-element-content {

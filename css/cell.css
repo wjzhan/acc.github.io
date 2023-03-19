@@ -6,8 +6,13 @@
 	}
 	
 	.visitor-ul{
-		flex-direction: column;
+		display:flex;
+		flex-wrap: wrap;
 		text-align: left;
+	}
+	
+	.visitor-li{
+		flex: 0 0 100%;
 	}
 	.linewrapper {
 		display: flex;
@@ -15,7 +20,7 @@
 		width: 100%;
 		padding: 3%;
 	}
-			
+		
 	.visitor-icon::after {
 	    position: absolute;
 		top: 5em;
@@ -24,6 +29,7 @@
 		border-top: none;
 	    border-left: 0.15em solid #5F178D;
 	    content: "";
+		z-index: -10;
 	}
 	
 	.visitor-content {	
