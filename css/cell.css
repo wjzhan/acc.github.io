@@ -42,4 +42,30 @@
 		padding: 0.5em;
 		text-align: center;
 	}
+	
+	.pray-intro{
+		flex-direction: column;
+	}
+	
+	#pray-reserve{
+		margin: 1% 20%;
+	}
+}
+
+@media (max-width: 750px){
+	.sunday-worship-intro{
+		flex-direction: column;
+	}
+	
+	#lunch-reserve {
+		margin-top: 1%;
+	}
+	
+	.sunday-schedul-l{
+		flex-direction: column;
+	}
+	
+	.sunday-schedule{
+		margin-top: 2%;
+	}
 }

@@ -239,6 +239,10 @@
 }
 
 /* Sunday Schedule -----------------------------------------------------------*/
+.sunday-schedul-l{
+	display: flex;
+}
+
 .sunday-schedule {
 	display: block;
 	flex-direction: column;
@@ -246,7 +250,8 @@
 	padding: 2em 3em;
 	margin: 0 0.5em;
 	overflow: hidden;
-	background-color: #f7faff;
+	/* background-color: #f7faff; */
+	background-color:#f0f1fa;
 	border-radius: 10px;
 }
 
