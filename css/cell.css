@@ -68,4 +68,12 @@
 	.sunday-schedule{
 		margin-top: 2%;
 	}
+	
+	.notice-l{
+		flex-direction: column;
+	}
+	
+	.notice-content{
+		width: 100%;
+	}
 }
