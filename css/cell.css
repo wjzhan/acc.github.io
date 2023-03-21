@@ -1,6 +1,18 @@
 @charset "utf-8";
 
 @media (max-width: 600px) {
+	.go-english h4{
+		font-size: 0.875em;
+	}
+	
+	.marquee>.inner>p{
+		font-size: 0.875em;
+	}
+	
+	.slideshow{
+		display: none;
+	}
+	
 	.first-visit-title p{
 		text-align: left;
 	}
