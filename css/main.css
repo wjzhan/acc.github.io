@@ -358,7 +358,7 @@
 	border-radius: 10px;
 }
 
-.notice-content h3 {
+.notice-content h4 {
 	color: white;
 	background: -webkit-linear-gradient(top, #40205f, #562e7d, #40205f);
 	background: -moz-linear-gradient(top, #40205f, #562e7d, #40205f);
