@@ -13,6 +13,29 @@
 		display: none;
 	}
 	
+	.intro>p span {
+		line-height: 1.0 !important;
+	}
+	
+	.intro{
+		display: none;
+	}
+	.cellintro{
+		display: block;
+		margin-left: 10%;
+		margin-top: 10%;
+	}
+	
+	.cellintro>p span {
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+		line-height: 1.8;
+		text-align: left;
+		display: block;
+		font-size: 0.75em;
+		padding-left: 1em;
+	}
+	
 	.first-visit-title p{
 		text-align: left;
 	}
@@ -87,5 +110,11 @@
 	
 	.notice-content{
 		width: 100%;
+	}
+}
+
+@media (max-width: 850px) {
+	.intro>p span {
+		line-height: 1.4;
 	}
 }
