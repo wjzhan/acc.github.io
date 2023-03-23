@@ -1,5 +1,6 @@
 window.onload = function() {
 	handleMarquee();
+	cellNavDrop();
 	controlVideo();
 	rollingAds();
 }
@@ -107,7 +108,7 @@ function rollingAds() {
 		},
 		transitionDelay: (
 			items
-			) => { // Set incrementing css transition-delay for .item-header & .item-description, .vertical-part, b elements
+		) => { // Set incrementing css transition-delay for .item-header & .item-description, .vertical-part, b elements
 			let seconds;
 
 			items.forEach(item => {
@@ -132,4 +133,38 @@ function rollingAds() {
 
 	let intervalF = setInterval(slider.nextSlide, interval);
 	slider.init();
+}
+
+
+function cellNavDrop() {
+	var items = document.querySelectorAll(".cellnavwrapper>ul>li");
+	for (var i = 0; i < items.length; i++) {
+		if (items[i].children.length > 1) {
+			var uri = items[i].children[0];
+			uri.addEventListener("click", function() {
+				dropControl(this, this.nextElementSibling);
+			}, false);
+		}
+	}
+}
+
+function dropControl(uri, subdiv) {
+	event.preventDefault();
+	var uri_expanded = uri.getAttribute("aria-expanded");
+	console.log(uri_expanded);
+	if (uri_expanded == "true") {
+		uri.setAttribute("aria-expanded", false);
+		uri.classList.remove("cellnav-subicon-collapse");
+		uri.classList.add("cellnav-subicon");
+		subdiv.classList.remove("blockdisplay");
+		subdiv.classList.add("nodisplay");
+		
+	} else {	
+		console.log(uri);
+		uri.setAttribute("aria-expanded", true);
+		uri.classList.remove("cellnav-subicon");
+		uri.classList.add("cellnav-subicon-collapse");
+		subdiv.classList.remove("nodisplay");
+		subdiv.classList.add("blockdisplay");
+	}
 }

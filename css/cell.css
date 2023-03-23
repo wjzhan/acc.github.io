@@ -9,6 +9,10 @@
 		font-size: 0.875em;
 	}
 	
+	section>nav{
+		display: none;
+	}
+	
 	.slideshow{
 		display: none;
 	}

@@ -59,6 +59,7 @@
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	padding-left: 3%;
+	flex: 4 1 100%;
 }
 
 /* img background #5F178D */
@@ -163,4 +164,83 @@
 .dropdown a:hover{
 	color: mediumpurple;
 }
+
+#cellnavicon{
+	display: flex;
+	float:right;
+	align-items: center;
+	justify-content: right;
+	padding-right: 3%;
+}
+
+#cellnavicon img{
+	position: relative;
+	height: 40%;
+	display: block;
+}
+
+.cellnavwrapper{
+	position: absolute;
+	top: 25%;
+	right:0;
+	width: 40%;
+	z-index: 100;
+	background: -webkit-linear-gradient(top, #000, #40205f);
+	background: -moz-linear-gradient(top, #000, #40205f);
+	border-radius: 5px 0 0 5px;
+}
+
+.cellnav-line{
+	border-bottom: 1px solid #666e75;
+}
+
+.cellnav-url{
+	color: #fff;
+	display: block;
+	padding: 1.25em 1em;
+	font-size: 1.25em;
+	font-weight: bold;
+	position: relative;
+}
+
+.cellnav-subicon::before{
+	content: "⌵";
+	position: absolute;
+	right: 1em;
+	color: #fff;
+}
+
+.cellnav-subicon-collapse::before{
+	content: "⌃";
+	position: absolute;
+	right: 1em;
+	color: #fff;
+}
+
+.cellnave-subwrapper{
+	background: black;
+}
+
+.cellnav-suburl{
+	color: #fff;
+	display: block;
+	padding: 0.5em 0 0.5em 1.7em;
+	font-size: 1.1em;
+	font-weight: bold;
+	position: relative;
+	overflow: hidden;
+}
+
+.cellnav-url:hover{
+	background: purple;
+}
+
+.cellnav-suburl::before{
+	content: "-";
+	position: absolute;
+	left: 1em;
+	color: #fff;
+}
+
+
 
