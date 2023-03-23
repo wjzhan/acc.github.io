@@ -57,7 +57,7 @@ function controlVideo() {
 	var btn = document.getElementById("videoBtn");
 	if (video.paused) {
 		video.play();
-		btn.innerHTML = "⏸";
+		btn.innerHTML = "■";
 	} else {
 		video.pause();
 		btn.innerHTML = "▸";
