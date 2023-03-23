@@ -166,7 +166,7 @@
 }
 
 #cellnavicon{
-	display: flex;
+	display: none;
 	float:right;
 	align-items: center;
 	justify-content: right;
@@ -179,9 +179,9 @@
 	display: block;
 }
 
-.cellnavwrapper{
+#cellnavwrapper{
 	position: absolute;
-	top: 25%;
+	top: 2.02em;
 	right:0;
 	width: 40%;
 	z-index: 100;
@@ -192,6 +192,10 @@
 
 .cellnav-line{
 	border-bottom: 1px solid #666e75;
+}
+
+.cellnav-bg:hover{
+	background-color:  #6b00b3;
 }
 
 .cellnav-url{
@@ -219,6 +223,11 @@
 
 .cellnave-subwrapper{
 	background: black;
+	width: 90%;
+}
+
+.cellnave-subwrapper ul{
+	width: 100%;
 }
 
 .cellnav-suburl{
@@ -227,12 +236,8 @@
 	padding: 0.5em 0 0.5em 1.7em;
 	font-size: 1.1em;
 	font-weight: bold;
-	position: relative;
 	overflow: hidden;
-}
-
-.cellnav-url:hover{
-	background: purple;
+	border-top: 1px solid #666e75;
 }
 
 .cellnav-suburl::before{
@@ -240,6 +245,10 @@
 	position: absolute;
 	left: 1em;
 	color: #fff;
+}
+
+.cellnave-subwrapper a:hover{
+	color: #c266ff;
 }
 
 
