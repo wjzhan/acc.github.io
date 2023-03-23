@@ -74,9 +74,8 @@
 	padding-top: 0.5em;
 }
 
-.acc-brand>h4 {
+.acc-brand>h2 {
 	padding-bottom: 0.3em;
-	font-size: 1.25em;
 	color: black;
 	text-shadow: lightgrey 1px 1px;
 }
@@ -95,10 +94,10 @@
 }
 
 .topmenu>a{
-	padding: 0.4em 1em;
+	padding: 0.9em 1em 0.2em 1em;
 }
 
-.topmenu>h4{
+.topmenu>h3{
 	padding: 1em;
 	border-top:0.2em solid black;
 }
@@ -116,7 +115,7 @@
 }
 
 #drop1{
-	margin-left: 4.5em;
+	margin-left: 4.3em;
 }
 #drop2{
 	margin-left: 0.5em;
@@ -136,7 +135,7 @@
 
 .dropdown>ul{
 	padding: 0.5em;
-	font-size: 0.95em;
+	font-size: 1.1em;
 }
 
 .dropdown>ul>li{
@@ -156,7 +155,7 @@
 	z-index: 10;
 }
 
-.topmenu>h4:hover{
+.topmenu>h3:hover{
 	background: black;
 	color: #c266ff;
 }

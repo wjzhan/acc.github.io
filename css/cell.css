@@ -9,14 +9,6 @@
 		font-size: 0.875em;
 	}
 	
-	section>nav{
-		display: none;
-	}
-	
-	#cellnavicon{
-		display: flex;
-	}
-	
 	.slideshow{
 		display: none;
 	}
@@ -124,5 +116,13 @@
 @media (max-width: 850px) {
 	.intro>p span {
 		line-height: 1.4;
+	}
+	
+	section>nav{
+		display: none;
+	}
+	
+	#cellnavicon{
+		display: flex;
 	}
 }
