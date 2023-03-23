@@ -48,14 +48,14 @@
 #videoBtn {
 	position: absolute;
 	top: 15%;
-	width: 3em;
+	width: 1%;
 	font-size: 1em;
-	padding: 10px;
+	padding: 1em;
 	border: none;
-	background: #000;
+	background: rgba(12, 13, 17, 0.3);
 	color: #fff;
 	cursor: pointer;
-	border-radius: 5px;
+	border-radius: 0 5px 5px 0;
 }
 
 #videoBtn:hover {

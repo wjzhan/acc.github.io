@@ -57,10 +57,10 @@ function controlVideo() {
 	var btn = document.getElementById("videoBtn");
 	if (video.paused) {
 		video.play();
-		btn.innerHTML = "暂停";
+		btn.innerHTML = "⏸";
 	} else {
 		video.pause();
-		btn.innerHTML = "播放";
+		btn.innerHTML = "▸";
 	}
 }
 
