@@ -2,7 +2,7 @@ window.onload = function() {
 	handleMarquee();
 	callCellNav()
 	cellNavDrop();
-	goHomePage();
+	menuCollapse();
 	controlVideo();
 	rollingAds();
 }
@@ -147,7 +147,7 @@ function callCellNav() {
 }
 
 function cellNavDrop() {
-	var items = document.querySelectorAll("#cellnavwrapper>ul>li");
+	var items = document.querySelectorAll(".cellnav-bg");
 	for (var i = 0; i < items.length; i++) {
 		if (items[i].children.length > 1) {
 			var uri = items[i].children[0];
@@ -177,7 +177,7 @@ function dropControl(uri, subdiv) {
 	}
 }
 
-function goHomePage() {
+function menuCollapse() {
 	var gohome = document.getElementById("menu-collapse");
 	gohome.addEventListener("click", function() {
 		navwrapper = document.getElementById("cellnavwrapper");
