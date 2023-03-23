@@ -354,11 +354,12 @@
 .notice-l {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .notice-content {
 	width: 40%;
-	margin: 2% 5%;
+	margin: 1.5%;
 	background-color: #f0f1fa;
 	border-radius: 10px;
 }
