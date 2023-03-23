@@ -60,7 +60,7 @@ function controlVideo() {
 		btn.innerHTML = "■";
 	} else {
 		video.pause();
-		btn.innerHTML = "▸";
+		btn.innerHTML = "►";
 	}
 }
 
