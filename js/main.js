@@ -161,7 +161,6 @@ function cellNavDrop() {
 function dropControl(uri, subdiv) {
 	event.preventDefault();
 	var uri_expanded = uri.getAttribute("aria-expanded");
-	console.log(uri_expanded);
 	if (uri_expanded == "true") {
 		uri.setAttribute("aria-expanded", false);
 		uri.classList.remove("cellnav-subicon-collapse");
@@ -170,7 +169,6 @@ function dropControl(uri, subdiv) {
 		subdiv.classList.add("nodisplay");
 
 	} else {
-		console.log(uri);
 		uri.setAttribute("aria-expanded", true);
 		uri.classList.remove("cellnav-subicon");
 		uri.classList.add("cellnav-subicon-collapse");
