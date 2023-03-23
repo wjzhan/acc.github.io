@@ -4,6 +4,7 @@ footer{
 	background: -webkit-linear-gradient(top, #000, #40205f);
 	background: -moz-linear-gradient(top, #000, #40205f);
 	color: white;
+	margin-top: 5%;
 	padding: 4em;
 	text-align: center;
 	align-items: center;

@@ -129,4 +129,12 @@
 		font-size: 1.2em;
 		padding-left: 1em;
 	}
+	
+	article {
+		margin-top: 10%;
+	}
+	
+	article h2{
+		font-size: 1.5em;
+	}
 }

@@ -21,7 +21,11 @@ ul{
 }
 
 article {
-	margin-top: 10%;
+	margin-top: 5%;
+}
+
+article h2{
+	font-size: 1.75em;
 }
 
 .wrapper {
