@@ -9,31 +9,12 @@
 		font-size: 0.875em;
 	}
 	
-	.slideshow{
-		display: none;
-	}
-	
 	.intro>p span {
 		line-height: 1.0 !important;
 	}
 	
-	.intro{
-		display: none;
-	}
-	.cellintro{
-		display: block;
-		margin-left: 10%;
-		margin-top: 10%;
-	}
-	
-	.cellintro>p span {
-		color: white;
-		font-family: 'Montserrat', sans-serif;
-		line-height: 1.8;
-		text-align: left;
-		display: block;
-		font-size: 0.75em;
-		padding-left: 1em;
+	.cellintro>p span{
+		font-size: 0.75em !important;
 	}
 	
 	.first-visit-title p{
@@ -113,16 +94,39 @@
 	}
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
 	.intro>p span {
 		line-height: 1.4;
 	}
-	
 	section>nav{
 		display: none;
 	}
 	
 	#cellnavicon{
 		display: flex;
+	}
+	
+	.slideshow{
+		display: none;
+	}
+	
+	.intro{
+		display: none;
+	}
+	
+	.cellintro{
+		display: block;
+		margin-left: 10%;
+		margin-top: 10%;
+	}
+	
+	.cellintro>p span {
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+		line-height: 1.8;
+		text-align: left;
+		display: block;
+		font-size: 1.2em;
+		padding-left: 1em;
 	}
 }
