@@ -148,6 +148,7 @@
 .visitor-li {
 	display: flex;
 	flex: 1;
+	justify-content: center;
 }
 
 .linewrapper {
@@ -181,8 +182,8 @@
 .visitor-icon::after {
 	position: absolute;
 	top: 2em;
-	width: calc(100% - 7.25em);
-	left: calc(50% + 3.5em);
+	width: calc(100% - 8.25em);
+	left: calc(50% + 4.5em);
 	border-top: 0.15em solid #5F178D;
 	content: "";
 	box-sizing: border-box;
@@ -200,7 +201,7 @@
 }
 
 .visitor-content p {
-	font-size: 0.9em;
+	font-size: 1em;
 	padding: 2% 0;
 }
 
