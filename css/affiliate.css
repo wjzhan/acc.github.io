@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#cellnavwrapper {
+	top: 0 !important;
+}
+
+.header-background-supper {
+	background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../upload/imgs/last-supper-desktop.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 6% 4%;
+}
+
+.header-background-creation {
+	background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../upload/imgs/creation-desktop.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 6% 4%;
+}
+
+
+

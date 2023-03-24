@@ -64,6 +64,7 @@
 
 /* img background #5F178D */
 .acc-logo img {
+	position: relative;
 	width: 3em;
 	margin-right: 0.25em;
 }
@@ -170,6 +171,10 @@
 	align-items: center;
 	justify-content: right;
 	padding-right: 3%;
+}
+
+#cellnavicon:hover{
+	cursor: pointer;
 }
 
 #cellnavicon span{

@@ -1,95 +1,104 @@
 @charset "utf-8";
 
 @media (max-width: 600px) {
-	.go-english h4{
+	.go-english h4 {
 		font-size: 0.875em;
 	}
-	
-	.marquee>.inner>p{
+
+	.marquee>.inner>p {
 		font-size: 0.875em;
 	}
-	
+
 	.intro>p span {
 		line-height: 1.0 !important;
 	}
-	
-	.cellintro>p span{
+
+	.cellintro>p span {
 		font-size: 0.75em !important;
 	}
-	
-	.first-visit-title p{
+
+	.first-visit-title p {
 		text-align: left;
 	}
-	
-	.visitor-ul{
-		display:flex;
+
+	.visitor-ul {
+		display: flex;
 		flex-wrap: wrap;
 		text-align: left;
 	}
-	
-	.visitor-li{
+
+	.visitor-li {
 		flex: 0 0 100%;
 	}
+
 	.linewrapper {
 		display: flex;
 		position: relative;
 		width: 100%;
 		padding: 3%;
 	}
-		
+
 	.visitor-icon::after {
-	    position: absolute;
+		position: absolute;
 		top: 5em;
 		left: 2.4em;
-	    height: calc(100% - 5em);
+		height: calc(100% - 5em);
 		border-top: none;
-	    border-left: 0.15em solid #5F178D;
-	    content: "";
+		border-left: 0.15em solid #5F178D;
+		content: "";
 		z-index: -10;
 	}
-	
-	.visitor-content {	
+
+	.visitor-content {
 		padding: 0 7%;
 	}
-	
+
 	.visitor-content a {
 		margin-left: 0;
 		margin-right: 50%;
 		padding: 0.5em;
 		text-align: center;
 	}
-	
-	.pray-intro{
+
+	.pray-intro {
 		flex-direction: column;
 	}
-	
-	#pray-reserve{
+
+	#pray-reserve {
 		margin: 1% 20%;
+	}
+
+	.header-background-supper {
+		background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../upload/imgs/last-supper-cell.png") !important;
+	}
+	
+	.header-background-creation {
+		background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../upload/imgs/creation-cell.jpg") !important;
 	}
 }
 
-@media (max-width: 750px){
-	.sunday-worship-intro{
+@media (max-width: 750px) {
+	.sunday-worship-intro {
 		flex-direction: column;
 	}
-	
+
 	#lunch-reserve {
 		margin-top: 1%;
 	}
-	
-	.sunday-schedul-l{
+
+	.sunday-schedul-l {
 		flex-direction: column;
 	}
-	
-	.sunday-schedule{
+
+	.sunday-schedule {
 		margin-top: 2%;
 	}
-	
-	.notice-l{
+
+	.notice-l {
 		flex-direction: column;
 	}
-	
-	.notice-content{
+
+	.notice-content {
 		width: 100%;
 	}
 }
@@ -98,28 +107,29 @@
 	.intro>p span {
 		line-height: 1.4;
 	}
-	section>nav{
+
+	#desknavwrapper {
 		display: none;
 	}
-	
-	#cellnavicon{
+
+	#cellnavicon {
 		display: flex;
 	}
-	
-	.slideshow{
+
+	.slideshow {
 		display: none;
 	}
-	
-	.intro{
+
+	.intro {
 		display: none;
 	}
-	
-	.cellintro{
+
+	.cellintro {
 		display: block;
 		margin-left: 10%;
 		margin-top: 10%;
 	}
-	
+
 	.cellintro>p span {
 		color: white;
 		font-family: 'Montserrat', sans-serif;
@@ -129,12 +139,12 @@
 		font-size: 1.2em;
 		padding-left: 1em;
 	}
-	
+
 	article {
 		margin-top: 10%;
 	}
-	
-	article h2{
+
+	article h2 {
 		font-size: 1.5em;
 	}
 }
