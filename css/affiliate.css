@@ -18,5 +18,58 @@
 	padding: 6% 4%;
 }
 
+.header-background-paradise {
+	background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../upload/imgs/paradise-desktop.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 6% 4%;
+}
 
+.history-groupcount-ul {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+	text-align: center;
+	padding: 1% 20%;
+}
 
+.visitor-content{
+	padding: 5% 0 !important;
+}
+
+.linewrapper i{
+	margin-right: 5%;
+}
+
+.sunday-schedule{
+	margin: 0 12% !important;
+}
+
+.sunday-schedule h3{
+	text-align: center;
+	font-size: 1.45em;
+}
+
+.sunday-timeline::before{
+	left: calc(25% + 0.5em) !important;
+}
+
+.badge{
+	left: 25% !important;
+}
+
+.timeline-element-content{
+	margin-left: calc(25% + 2.5em) !important;
+}
+
+.timeline-element-time{
+	top: -0.15em;
+	left: calc(25% - 4.5em) !important;
+	color: gray;
+	font-size: 1.1em;
+}
+
+.pray-intro{
+	justify-content: center;
+}

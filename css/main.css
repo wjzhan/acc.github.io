@@ -193,7 +193,7 @@
 .visitor-content {
 	display: flex;
 	flex-direction: column;
-	padding: 5% 15%;
+	padding: 5% 12%;
 }
 
 .visitor-content h3 {
@@ -270,10 +270,10 @@
 	content: '';
 	position: absolute;
 	top: 0;
-	left: 4em;
+	left: calc(18% + 0.5em);
 	height: 100%;
 	width: 0.25em;
-	background: #e9ecef;
+	background: #D1D4D7;
 	border-radius: 0.25rem;
 	box-sizing: border-box;
 }
@@ -285,7 +285,7 @@
 
 .timeline-element-time {
 	position: absolute;
-	left: -0.85em;
+	left: calc(18% - 5em);
 	top: 0.1em;
 	/* color: #adb5bd; */
 	color: darkgray;
@@ -295,7 +295,7 @@
 
 .badge {
 	position: absolute;
-	left: 3.5em;
+	left: 18%;
 	border-radius: 0.3125rem;
 	background-color: #71869d;
 }
@@ -321,7 +321,7 @@
 
 .timeline-element-content {
 	position: relative;
-	margin-left: 5.5em;
+	margin-left: calc(18% + 2em);
 	top: -0.1em;
 	opacity: 0.7;
 }
