@@ -145,6 +145,14 @@
 	padding: 1% 8%;
 }
 
+.tv-ul {
+	position: relative;
+	display: flex;
+	margin-bottom: 1em;
+	text-align: center;
+	padding: 1% 14%;
+}
+
 .visitor-li {
 	display: flex;
 	flex: 1;
@@ -156,7 +164,7 @@
 }
 
 .notebook-icon::before {
-	content: url("../img/icons8-notebook-60.png");
+	content: url("../img/notebook.svg");
 	width: 60px;
 	height: 60px;
 	opacity: 0.9;
@@ -164,7 +172,7 @@
 }
 
 .church-icon::before {
-	content: url("../img/icons8-church-60.png");
+	content: url("../img/church.svg");
 	width: 60px;
 	height: 60px;
 	opacity: 0.9;
@@ -172,7 +180,7 @@
 }
 
 .group-icon::before {
-	content: url("../img/icons8-group-64.png");
+	content: url("../img/group.svg");
 	width: 60px;
 	height: 60px;
 	opacity: 0.9;
@@ -189,11 +197,20 @@
 	box-sizing: border-box;
 }
 
+.tv-icon{
+	content: url("../img/tv.svg");
+	width: 60px;
+	height: 60px;
+	opacity: 0.9;
+	box-sizing: border-box;
+}
+
 
 .visitor-content {
 	display: flex;
 	flex-direction: column;
-	padding: 5% 12%;
+	/* padding: 5% 12%; */
+	padding: 0;
 }
 
 .visitor-content h3 {

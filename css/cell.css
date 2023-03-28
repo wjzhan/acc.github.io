@@ -21,7 +21,7 @@
 		text-align: left;
 	}
 
-	.visitor-ul {
+	.visitor-ul, .tv-ul {
 		display: flex;
 		flex-wrap: wrap;
 		text-align: left;
