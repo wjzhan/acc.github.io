@@ -75,10 +75,10 @@
 }
 
 .staff-pics{
-	margin: 0 7%;
+	margin: 1% 10%;
 }
 .staff-pics img{
-	width: 100%;
+	width: 90%;
 	height: auto;
 	object-fit: contain;
 }
