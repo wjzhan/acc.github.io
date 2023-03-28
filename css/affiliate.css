@@ -73,3 +73,12 @@
 .pray-intro{
 	justify-content: center;
 }
+
+.staff-pics{
+	margin: 0 7%;
+}
+.staff-pics img{
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
