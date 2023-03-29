@@ -358,8 +358,8 @@
 	color: white;
 }
 
-#pray-reserve {
-	margin-top: 2em;
+.pray-reserve {
+	margin-top: calc(1% + 0.5em);
 	margin-left: 25%;
 	padding: 1em;
 	background-color: rgba(64, 32, 95, .1);

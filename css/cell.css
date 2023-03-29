@@ -70,7 +70,7 @@
 		flex-direction: column;
 	}
 
-	#pray-reserve {
+	.pray-reserve {
 		margin: 1% 20%;
 	}
 
@@ -84,6 +84,10 @@
 	
 	.header-background-paradise {
 		background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../upload/imgs/paradise-cell.jpg") !important;
+	}
+	
+	.row-to-col{
+		flex-direction: column;
 	}
 }
 

@@ -82,3 +82,11 @@
 	height: auto;
 	object-fit: contain;
 }
+
+blockquote {
+  background: #f0f1fa;
+  border-left: 10px solid #D1D4D7;
+  padding: 1em 2em;
+  line-height: 2.5;
+  text-align: left;
+}
