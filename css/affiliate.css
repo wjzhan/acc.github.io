@@ -34,59 +34,90 @@
 	padding: 1% 20%;
 }
 
-.visitor-content{
+.visitor-content {
 	padding: 5% 0 !important;
 }
 
-.linewrapper i{
+.linewrapper i {
 	margin-right: 5%;
 }
 
-.sunday-schedule{
-	margin: 0 12% !important;
+.church-hist-schedule {
+	display: block;
+	flex-direction: column;
+	flex: 1;
+	padding: 2em 3em;
+	margin: 0 12%;
+	overflow: hidden;
+	/* background-color: #f7faff; */
+	background-color: #f0f1fa;
+	border-radius: 10px;
 }
 
-.sunday-schedule h3{
+.church-hist-schedule h3 {
 	text-align: center;
 	font-size: 1.45em;
 }
 
-.sunday-timeline::before{
-	left: calc(25% + 0.5em) !important;
+.church-hist-timeline {
+	width: 100%;
+	position: relative;
+	padding: 1.5rem 0 1rem;
 }
 
-.badge{
-	left: 25% !important;
+.church-hist-timeline::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: calc(25% + 0.5em);
+	height: 100%;
+	width: 0.25em;
+	background: #D1D4D7;
+	border-radius: 0.25rem;
+	box-sizing: border-box;
 }
 
-.timeline-element-content{
-	margin-left: calc(25% + 2.5em) !important;
+.church-hist-badge {
+	position: absolute;
+	left: 25%;
+	border-radius: 0.3125rem;
+	background-color: #71869d;
 }
 
-.timeline-element-time{
+.church-hist-timeline-element-content {
+	position: relative;
+	margin-left: calc(25% + 2.5em);
 	top: -0.15em;
-	left: calc(25% - 4.5em) !important;
+	opacity: 0.7;
+}
+
+.church-hist-timeline-element-time {
+	position: absolute;
+	top: -0.15em;
+	left: calc(25% - 4.5em);
 	color: gray;
 	font-size: 1.1em;
+	white-space: nowrap;
 }
 
-.pray-intro{
+.pray-intro {
 	justify-content: center;
 }
 
-.staff-pics{
+.staff-pics {
 	margin: 1% 10%;
 }
-.staff-pics img{
+
+.staff-pics img {
 	width: 90%;
 	height: auto;
 	object-fit: contain;
 }
 
 blockquote {
-  background: #f0f1fa;
-  border-left: 10px solid #D1D4D7;
-  padding: 1em 2em;
-  line-height: 2.5;
-  text-align: left;
+	background: #f0f1fa;
+	border-left: 10px solid #D1D4D7;
+	padding: 1em 2em;
+	line-height: 2.5;
+	text-align: left;
 }
