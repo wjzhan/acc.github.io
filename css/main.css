@@ -173,8 +173,7 @@
 
 .church-icon::before {
 	content: url("../img/church.svg");
-	width: 60px;
-	height: 60px;
+	background-size: 60px 60px;
 	opacity: 0.9;
 	box-sizing: border-box;
 }
@@ -209,8 +208,6 @@
 .visitor-content {
 	display: flex;
 	flex-direction: column;
-	/* padding: 5% 12%; */
-	padding: 0;
 }
 
 .visitor-content h3 {

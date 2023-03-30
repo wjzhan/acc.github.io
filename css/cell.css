@@ -47,7 +47,7 @@
 	.visitor-icon::after {
 		position: absolute;
 		top: 5em;
-		left: 2.4em;
+		left: calc(5% + 2em);
 		height: calc(100% - 5em);
 		border-top: none;
 		border-left: 0.15em solid #5F178D;
@@ -57,6 +57,7 @@
 
 	.visitor-content {
 		padding: 0 7%;
+		margin-top: -0.5em;
 	}
 
 	.visitor-content a {
