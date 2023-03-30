@@ -121,9 +121,3 @@ blockquote {
 	line-height: 2.5;
 	text-align: left;
 }
-
-#church-building-map{
-	background-image: url("../upload/imgs/campus_map.jpg");
-	background-size: cover;
-	width: 100%;
-}
