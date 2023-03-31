@@ -204,6 +204,14 @@
 	box-sizing: border-box;
 }
 
+.chalk-icon{
+	content: url("../img/chalkboard.svg");
+	width: 60px;
+	height: 60px;
+	opacity: 0.9;
+	box-sizing: border-box;
+}
+
 
 .visitor-content {
 	display: flex;

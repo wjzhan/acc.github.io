@@ -87,8 +87,8 @@ article h2{
 	display: flex;
 }
 
-.nopadding{
-	padding: 0;
+.top-5{
+	padding-top: 3% !important;
 }
  
 .row-to-col{
