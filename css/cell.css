@@ -90,6 +90,10 @@
 	.row-to-col{
 		flex-direction: column;
 	}
+	
+	#facility-placeholder{
+		display: none;
+	}
 }
 
 @media (max-width: 750px) {
